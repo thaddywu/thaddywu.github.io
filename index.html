@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="https://latex.now.sh/style.min.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="google-site-verification" content="tm5Y6ZNTf-lBqbwniGjQPv1q02o2TuUQZ9GTYa4SMLg" />
+  <title>Yaoxuan Wu</title>
+
+  <meta name="description"
+    content="A minimal, almost class-less CSS library to write modern websites that look like LaTeX documents." />
+  <meta name="keywords" content="latex.css,css library,class-less css,latex css" />
+  <meta property="og:title" content="LaTeX.css" />
+  <meta property="og:url" content="https://latex.now.sh" />
+  <meta property="og:description"
+    content="A minimal, almost class-less CSS library to write modern websites that look like LaTeX documents." />
+  <meta property="og:type" content="website" />
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="prism/prism.css" />
+</head>
+
+<body id="top">
+  <header>
+    <h1><span class="latex">Yaoxuan Wu</h1>
+    <p class="author">
+    </p>
+  </header>
+
+
+
+  <main>
+    <article>
+      <p>
+        <span class="sidenote"><img src="assets/head.jpeg"
+        loading="lazy" alt="Mountain landscape" width="300" /></span>
+        I am Yaoxuan Wu and usually go by Thaddy. Now, I am a second-year Ph.D. student in Computer Science at UCLA, advised by <a href="https://web.cs.ucla.edu/~miryung/">Prof. Miryung Kim</a>.
+        My current research focuses on software testing for big data analytics. I am generally interested in program analysis, testing and security.
+      </p>
+
+      <br><br><br>
+
+      <h2 id="pubs">Publications</h2>
+      <ul>
+        <li> <a href="https://people.cs.vt.edu/~gulzar/assets/pdf/ase23_naturalfuzz.pdf">NaturalFuzz: Natural Input Generation for Big Data Analytics</a>
+            <br>
+            Ahmad Humayun, <b>Yaoxuan Wu</b>, Miryung Kim, and Muhammad Ali Gulzar
+            <br>
+            The 38th IEEE/ACM International Conference on Automated Software Engineering. (ASE23)
+        </li>
+        <li> <a href="https://www.usenix.org/system/files/sec23fall-prepub-493-zhang-zhuo.pdf">Pelican: Exploiting Backdoors of Naturally Trained Deep Learning Models In Binary Code Analysis</a>
+            <br>
+            Zhuo Zhang, Guanhong Tao, Guangyu Shen, Shengwei An, Qiuling Xu, Yingqi Liu, Yapeng Ye, <b>Yaoxuan Wu</b>, and Xiangyu Zhang
+            <br>
+            Proceedings of the 32nd USENIX Security Symposium. (USENIX23)
+        </li>
+      </ul>
+      
+    </article>
+  </main>
+
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'],],
+      },
+    }
+    const typeFaceToggle = document.getElementById('typeface-toggle')
+    const typeface = document.getElementById('typeface')
+    typeFaceToggle.addEventListener('click', () => {
+      document.body.classList.toggle('libertinus')
+      typeface.textContent = document.body.classList.contains('libertinus') ? 'Libertinus' : 'Latin Modern'
+    })
+
+    const darkModeToggle = document.getElementById('dark-mode-toggle')
+    darkModeToggle.addEventListener('click', () => {
+      document.body.classList.toggle('latex-dark')
+    })
+  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script async src="prism/prism.js"></script>
+
+  <script async defer data-domain="latex.now.sh" src="https://plausible.io/js/plausible.js"></script>
+</body>
+
+</html>
