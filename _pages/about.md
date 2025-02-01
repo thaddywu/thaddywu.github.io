@@ -26,4 +26,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am Yaoxuan Wu.
+I am Yaoxuan Wu, a third-year CS PhD at UCLA, advised by Miryung Kim. My research interests span over on security, database and program testing.
+
+
+Prior to joining UCLA, I completed my undergrad in Turing Class, Peking University. During my undergrad years, I was also fortunate to work with Xin Zhang at Peking University.
