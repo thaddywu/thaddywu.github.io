@@ -26,7 +26,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am Yaoxuan Wu, a third-year CS PhD at UCLA, advised by Miryung Kim. My research interests span over on security, database and program testing.
+I am a third-year PhD student in Computer Science at UCLA, advised by Prof Miryung Kim. 
+I obtainedmy B.Sc., Summa Cum Laude in Computer Science from Turing Class, Peking University, advised by Xin Zhang.
 
+During my undergraduate years, I am fortunate to work with Prof Xiangyu Zhang at Purdue University.
 
-Prior to joining UCLA, I completed my undergrad in Turing Class, Peking University. During my undergrad years, I was also fortunate to work with Xin Zhang at Peking University.
+My research interests span security, database and program testing.
