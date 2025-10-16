@@ -27,8 +27,6 @@ latest_posts:
 ---
 
 I am a forth-year PhD candidate in Computer Science at UCLA, advised by Prof. [Miryung Kim](). 
-I obtainedmy B.Sc., Summa Cum Laude in Computer Science from Turing Class, Peking University.#, advised by Dr. [Xin Zhang](https://xinpl.github.io/).
-
-#During my undergraduate years, I am fortunate to work with Prof. [Xiangyu Zhang]() at Purdue University.
+I obtainedmy B.Sc., Summa Cum Laude in Computer Science from Turing Class, Peking University.
 
 My research interests span database and program testing.
