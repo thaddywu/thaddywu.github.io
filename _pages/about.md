@@ -26,7 +26,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a forth-year PhD candidate in Computer Science at UCLA, advised by Prof. [Miryung Kim](). 
+I am a fifth-year PhD candidate in Computer Science at UCLA, advised by Prof. [Miryung Kim](). 
 I obtainedmy B.Sc., Summa Cum Laude in Computer Science from Turing Class, Peking University.
 
 My research interests span database and program testing.
