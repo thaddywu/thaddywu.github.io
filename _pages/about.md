@@ -27,6 +27,6 @@ latest_posts:
 ---
 
 I am a fifth-year PhD candidate in Computer Science at UCLA, advised by Prof. [Miryung Kim](). 
-I obtainedmy B.Sc., Summa Cum Laude in Computer Science from Turing Class, Peking University.
+I obtained my B.Sc., Summa Cum Laude in Computer Science from Turing Class, Peking University.
 
-My research interests span database and program testing.
+Previously, my research focused on improving test naturalness, API modeling, and test oracles for symbolic execution and fuzzing, with a particular emphasis on data-intensive computing systems. More recently, I have shifted my focus to research on AI agents and agentic systems. I am always happy to explore potential collaborations—please feel free to reach out!
