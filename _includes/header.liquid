@@ -117,6 +117,13 @@
               {% endif %}
             {% endif %}
           {% endfor %}
+          <!-- CV PDF -->
+          {% assign cv_page = site.pages | where: 'layout', 'cv' | first %}
+          {% if cv_page.cv_pdf %}
+            <li class="nav-item">
+              <a class="nav-link" href="{{ cv_page.cv_pdf | relative_url }}" target="_blank" rel="noopener noreferrer">CV</a>
+            </li>
+          {% endif %}
           {% if site.search_enabled %}
             <!-- Search -->
             <li class="nav-item">
