@@ -30,5 +30,3 @@ I am a fifth-year PhD candidate in Computer Science at UCLA, advised by Prof. [M
 I obtained my B.Sc., Summa Cum Laude in Computer Science from Turing Class, Peking University.
 
 Previously, my research focused on improving test naturalness, API modeling, and test oracles for symbolic execution and fuzzing, with a particular emphasis on data-intensive computing systems. More recently, I have shifted my focus to research on AI agents and agentic systems. I am always happy to explore potential collaborations—please feel free to reach out!
-
-Our paper, [Agentic Proof and Property-Based Testing via Property-Templates in Data-Intensive Computing](https://arxiv.org/pdf/2607.09072), has been accepted to ICSE 2027! Seongmin Lee and I contributed equally to this work.
