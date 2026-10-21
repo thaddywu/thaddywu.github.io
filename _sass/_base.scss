@@ -697,6 +697,10 @@ footer.sticky-bottom {
 .publications {
   margin-top: 2rem;
 
+  .publication-content {
+    min-width: 0;
+  }
+
   h1 {
     color: var(--global-theme-color);
     font-size: 2rem;
