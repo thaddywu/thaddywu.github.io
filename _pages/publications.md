@@ -15,6 +15,8 @@ nav_order: 2
 
 <div class="publications">
 
-{% bibliography %}
+{% bibliography --query @*[key!=ozgu2026parser&&key!=zhou2025targeted] %}
+
+{% bibliography --group_by none --query @*[key=ozgu2026parser||key=zhou2025targeted] %}
 
 </div>
